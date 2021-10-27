@@ -20,25 +20,25 @@ const database = {
     },
         {
             id: 4, 
-            active: pending,
+            active: true,
             name: "Capicorn"
 
     },
         {
             id: 5, 
-            active: Boolean,
+            active: true,
             name: "Pluto"
 
     },
         {
             id: 6, 
-            active: Boolean,
+            active: false,
             name: "Taurus"
 
     },
         {
             id: 7, 
-            active: Boolean,
+            active: false,
             name: "Jupiter"
 
         },
@@ -49,42 +49,42 @@ const database = {
             id: 1, 
             name: "Chelsea Harris",
             planet: "Taurus",
-            active: Boolean,
+            active: true,
             colonyId: 1,
         },
         {
             id: 2, 
             name: "Avia Mondesir",
             planet: "Capicorn",
-            active: Boolean,
+            active: true,
             colonyId: 1,
         },
         {
             id: 3, 
             name: "Jason Ross",
             planet: "Earth",
-            active: Boolean,
+            active: true,
             colonyId: 1,
         },
         {
             id: 4, 
             name: "Milton Brown",
             planet: "Moon",
-            active: Boolean,
+            active: true,
             colonyId: 1,
         },
         {
             id: 4, 
             name: "Patty LaBelle",
             planet: "Pluto",
-            active: Boolean,
+            active: true,
             colonyId: 1,
         },
         {
             id: 4, 
             name: "Sally Moni",
             planet: "Saturn",
-            active: Boolean,
+            active: false,
             colonyId: 1,
         },
     ],
