@@ -2,37 +2,44 @@ const database = {
     colonies = [
         {
             id: 1, 
-             active: Boolean,
+             active: true,
+             name: "Earth"
 
     },
         {
             id: 2, 
-            active: Boolean,
+            active: true,
+            name: "Moon"
 
     },
         {
             id: 3, 
-            active: Boolean,
+            active: true,
+            name: "Saturn"
 
     },
         {
             id: 4, 
-            active: Boolean,
+            active: true,
+            name: "Capicorn"
 
     },
         {
             id: 5, 
-            active: Boolean,
+            active: true,
+            name: "Pluto"
 
     },
         {
             id: 6, 
-            active: Boolean,
+            active: false,
+            name: "Taurus"
 
     },
         {
             id: 7, 
-            active: Boolean,
+            active: false,
+            name: "Jupiter"
 
         },
 
@@ -40,44 +47,44 @@ const database = {
     governors = [
         {
             id: 1, 
-            name: "",
-            planet: "",
-            active: Boolean,
+            name: "Chelsea Harris",
+            planet: "Taurus",
+            active: true,
             colonyId: 1,
         },
         {
             id: 2, 
-            name: "",
-            planet: "",
-            active: Boolean,
+            name: "Avia Mondesir",
+            planet: "Capicorn",
+            active: true,
             colonyId: 1,
         },
         {
             id: 3, 
-            name: "",
-            planet: "",
-            active: Boolean,
+            name: "Jason Ross",
+            planet: "Earth",
+            active: true,
             colonyId: 1,
         },
         {
             id: 4, 
-            name: "",
-            planet: "",
-            active: Boolean,
+            name: "Milton Brown",
+            planet: "Moon",
+            active: true,
             colonyId: 1,
         },
         {
             id: 4, 
-            name: "",
-            planet: "",
-            active: Boolean,
+            name: "Patty LaBelle",
+            planet: "Pluto",
+            active: true,
             colonyId: 1,
         },
         {
             id: 4, 
-            name: "",
-            planet: "",
-            active: Boolean,
+            name: "Sally Moni",
+            planet: "Saturn",
+            active: false,
             colonyId: 1,
         },
     ],
