@@ -2,37 +2,44 @@ const database = {
     colonies = [
         {
             id: 1, 
-             active: Boolean,
+             active: true,
+             name: "Earth"
 
     },
         {
             id: 2, 
-            active: Boolean,
+            active: true,
+            name: "Moon"
 
     },
         {
             id: 3, 
-            active: Boolean,
+            active: true,
+            name: "Saturn"
 
     },
         {
             id: 4, 
-            active: Boolean,
+            active: pending,
+            name: "Capicorn"
 
     },
         {
             id: 5, 
             active: Boolean,
+            name: "Pluto"
 
     },
         {
             id: 6, 
             active: Boolean,
+            name: "Taurus"
 
     },
         {
             id: 7, 
             active: Boolean,
+            name: "Jupiter"
 
         },
 
@@ -40,43 +47,43 @@ const database = {
     governors = [
         {
             id: 1, 
-            name: "",
-            planet: "",
+            name: "Chelsea Harris",
+            planet: "Taurus",
             active: Boolean,
             colonyId: 1,
         },
         {
             id: 2, 
-            name: "",
-            planet: "",
+            name: "Avia Mondesir",
+            planet: "Capicorn",
             active: Boolean,
             colonyId: 1,
         },
         {
             id: 3, 
-            name: "",
-            planet: "",
+            name: "Jason Ross",
+            planet: "Earth",
             active: Boolean,
             colonyId: 1,
         },
         {
             id: 4, 
-            name: "",
-            planet: "",
+            name: "Milton Brown",
+            planet: "Moon",
             active: Boolean,
             colonyId: 1,
         },
         {
             id: 4, 
-            name: "",
-            planet: "",
+            name: "Patty LaBelle",
+            planet: "Pluto",
             active: Boolean,
             colonyId: 1,
         },
         {
             id: 4, 
-            name: "",
-            planet: "",
+            name: "Sally Moni",
+            planet: "Saturn",
             active: Boolean,
             colonyId: 1,
         },
