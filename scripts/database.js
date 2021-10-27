@@ -54,7 +54,7 @@ const database = {
         },
         {
             id: 2, 
-            name: "Avia Mondesir",
+            name: "Aviva Mondesir",
             planet: "Capicorn",
             active: true,
             colonyId: 1,
@@ -199,9 +199,17 @@ export const setFacility = (facilityId) => {
     database.transientState.selectedFacility = facilityId
     document.dispatchEvent( new CustomEvent("stateChanged") )
 }
-
+export const getColonies = () => {
+    return database.colonies.map(colony => ({...colony}))
+}
+export const getGovernors = () => {
+    return database.governors.map(governor => ({...governor}))
+}
+export const getMinerals = () => {
+    return database.minerals.map(mineral => ({...mineral}))
+}
 export const getFacilities = () => {
-    return database.facilities.map(f => ({...f}))
+    return database.facilities.map(facility => ({...facility}))
 }
 
 export const purchaseMineral = () => {
