@@ -1,5 +1,5 @@
 const database = {
-    colonies = [
+    colonies : [
         {
             id: 1, 
              active: true,
@@ -44,7 +44,7 @@ const database = {
         },
 
     ],
-    governors = [
+    governors : [
         {
             id: 1, 
             name: "Chelsea Harris",
@@ -54,7 +54,7 @@ const database = {
         },
         {
             id: 2, 
-            name: "Avia Mondesir",
+            name: "Aviva Mondesir",
             planet: "Capicorn",
             active: true,
             colonyId: 1,
@@ -88,7 +88,7 @@ const database = {
             colonyId: 1,
         },
     ],
-     facilities = [ 
+     facilities : [ 
          {
             id: 1,
             name: "Matrix Mania",
@@ -145,7 +145,7 @@ const database = {
             active: false,
         },
     ],
-    minerals = [
+    minerals : [
         {
             id: 1,
             name: "Quartz",
@@ -175,7 +175,7 @@ const database = {
             name: "Topaz",
          },
     ],
-    facilityMinerals = [
+    facilityMinerals : [
         {
             id: 1,
             mineralId: 1,
@@ -183,7 +183,7 @@ const database = {
             quantity: 1,
         }
     ], 
-    colonyMinerals = [
+    colonyMinerals : [
         {
             id: 1,
             colonyId: 1,
@@ -199,9 +199,17 @@ export const setFacility = (facilityId) => {
     database.transientState.selectedFacility = facilityId
     document.dispatchEvent( new CustomEvent("stateChanged") )
 }
-
+export const getColonies = () => {
+    return database.colonies.map(colony => ({...colony}))
+}
+export const getGovernors = () => {
+    return database.governors.map(governor => ({...governor}))
+}
+export const getMinerals = () => {
+    return database.minerals.map(mineral => ({...mineral}))
+}
 export const getFacilities = () => {
-    return database.facilities.map(f => ({...f}))
+    return database.facilities.map(facility => ({...facility}))
 }
 
 export const purchaseMineral = () => {
