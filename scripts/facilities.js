@@ -7,11 +7,16 @@ export const Facilities = () => {
 
     
     // This is how you have been converting objects to <li> elements
-    for (const facility of facilities) {
-        html += `<li>
-            <input type="radio" name="metal" value="${facility.id}" /> ${facility.name}
-    `}
+//     for (const facility of facilities) {
+//         html += `<li>
+//             <<select id="resource">
+//             <option value="0">Choose a facility...${facility.id}" /> ${facility.name}</option>
+//             <option value="1">${facility.name}</option>
+//             <option value="2">Second option</option>
+//         </select>
+      
+//     `}
 
-    html += "</ul>"
-    return html
-}
+ 
+//     return html
+// }
