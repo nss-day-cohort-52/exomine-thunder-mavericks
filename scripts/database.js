@@ -201,6 +201,7 @@ const database = {
     transientState: {
         governorId: 1 // this seed data is a placeholder before the function is created to store the data 
     },
+    //transientState: { governorId: 0 // this wil reset the state after purchase} jason will provide more context,
 }
 
 export const exportTransientState = () => {
