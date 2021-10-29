@@ -8,7 +8,7 @@ document.addEventListener(
         if (changeEvent.target.id === "governor") {
             const governerOption = changeEvent.target.value
             console.log(governerOption)  // "1" or "2"
-        }
+        } // we need to store selected govoner in transient state.
     }
 )
 
