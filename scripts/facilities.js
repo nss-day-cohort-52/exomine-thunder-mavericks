@@ -12,9 +12,9 @@ document.addEventListener(
 )
 
 
-export const Facilities = () => { // eporting the desired html to the page
-    const facilities = getFacilities() // creating a varible called facilitty. and assigning the value of an array "get fac"
-    //creating a varible called html and its assigned html to an empty string
+export const Facilities = () => { // Exporting the desired html to the page
+    const facilities = getFacilities() // creating a varible called facility. and assigning the value of an array "get fac"
+    // Creating a varible called html and its assigned html to an empty string
     let html= "" 
     
     html += ` <div> <label> Choose your facility </label> 
