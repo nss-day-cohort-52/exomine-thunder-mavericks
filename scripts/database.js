@@ -149,30 +149,37 @@ const database = {
         {
             id: 1,
             name: "Quartz",
+            quantity: 105
          },
         {
             id: 2,
             name: "Diamond",
+            quantity: 65
          },
         {
             id: 3,
             name: "Calcite",
+            quantity: 3000
          },
         {
             id: 4,
             name: "Fluorite",
+            quantity: 123
          },
         {
             id: 5,
             name: "Feldspar",
+            quantity: 600
          },
         {
             id: 6,
             name: "Gypsum",
+            quantity: 58
          },
         {
             id: 7,
             name: "Topaz",
+            quantity: 87908726
          },
     ],
     facilityMinerals : [
