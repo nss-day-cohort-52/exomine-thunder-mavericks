@@ -198,7 +198,7 @@ const database = {
             quantity : 1,
         }
     ],
-    transientState: {},
+    transientState: { governorId: 0},
 }
 
 export const exportTransientState = () => {
