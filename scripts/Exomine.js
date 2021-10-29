@@ -1,7 +1,8 @@
 // renders your HTML
 import { Facilities } from "./facilities.js"
 import { Governors } from "./governors.js"
-//import { Minerals } from "./minerals.js"
+import { mineralList } from "./minerals.js"
+//import { mineralList } from "./minerals.js"
 //import { Colonies } from "./colonies.js"
 
 
@@ -18,6 +19,10 @@ export const Exomine = () => {
         <section class="choices__facilities options">
             <p>Choose a facility </p>
             ${Facilities()}
+        </section>
+        <section class=" minerals options">
+            <p> Your minerals </p>
+            ${mineralList()}
         </section>
         
     <article>
