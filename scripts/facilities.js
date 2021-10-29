@@ -35,4 +35,6 @@ export const Facilities = () => { // Exporting the desired html to the page
 // This conditional should disable the the dropdown if nothing is in temporary state. The only potential flaw is that anything could be inserted into transient state in order to enable the dropdown.
     
  return html //returning the HTML string
-}
+
+
+ /////something
