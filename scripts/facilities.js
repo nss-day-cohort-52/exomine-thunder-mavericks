@@ -36,3 +36,4 @@ export const Facilities = () => { // Exporting the desired html to the page
     
  return html //returning the HTML string
 }
+

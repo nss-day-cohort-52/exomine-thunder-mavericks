@@ -47,16 +47,11 @@ Each colony can have one, or more, active governor depending on the size of the 
 
 ## Mining Facilities
 
-Each mining facility can be active or inactive depending on the changes of staffing from the various companies that operate the facilities. Each object representation should record the name of the facility and its active status.
+Each mining facility can be active or inactive depending on the changes of staffing from the various companies that operate the facilities.
 
-If a mining facility is inactive, then the button in the UI should never be enabled, even after a governor is chosen.
+If a mining facility is inactive, then the dropdown in the UI should never be enabled, even after a governor is chosen.
 
 ## Minerals
 
-Each mining facility can produce several kinds of minerals. Each mineral type can be produced at several mining facilities.
+Each mining facility can produce several kinds of minerals. Each mineral type can be produced at several mining facilities. 
 
-# Stretch Goal
-
-**Do not attempt the stretch goal until you have completed the basic requirements above.**
-
-If your team would like to do more advanced state manipulations, refactor your code to allow a governor to select minerals from multiple mining facilities before finalizing the purchase. A working example done by a previous team can be seen at [https://solar-mine.onrender.com/](https://solar-mine.onrender.com/). 

@@ -198,6 +198,7 @@ const database = {
             quantity : 1,
         }
     ],
+    // Value should always be initialized to zero at page load and whenever the customer chooses to place an order
     transientState: { governorId: 0},
 }
 
